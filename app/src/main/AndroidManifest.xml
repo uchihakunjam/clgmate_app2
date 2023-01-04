@@ -16,7 +16,7 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Clgmate_app"
+        android:theme="@style/Theme.clgmate_app"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
@@ -80,7 +80,7 @@
             android:resource="@array/preloaded_fonts" /> <!-- from youtube download and view -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.collegemateapp.provider"
+            android:authorities="com.example.clgmate_app.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

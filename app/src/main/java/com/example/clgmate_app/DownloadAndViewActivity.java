@@ -16,6 +16,7 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import com.example.clgmate_app.R;
 
 public class DownloadAndViewActivity extends AppCompatActivity {
 
